@@ -1,0 +1,11 @@
+ 
+# Ignore node_modules and dependencies
+node_modules/
+package-lock.json
+
+# Ignore API keys
+config.js
+
+# Ignore system files
+.DS_Store
+Thumbs.db
