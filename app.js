@@ -1,6 +1,6 @@
 async function getWeather() {
     const city = document.getElementById("city-input").value.trim();  // Get input and trim spaces
-    const apiKey = "795317b707a61bdbf9006954846f0fe6";  // Your OpenWeatherMap API key
+    const apiKey = "795317b707a61bdbf9006954846f0fe";  // Your OpenWeatherMap API key
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
     // Input validation for empty city name
